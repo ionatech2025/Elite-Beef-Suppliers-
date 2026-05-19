@@ -1,26 +1,23 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Defining your custom branding colors */
+  --color-brand-maroon: #7A1C1C;
+  --color-brand-maroon-dark: #4A1010;
+  --color-brand-charcoal: #1A1A1A;
+  --color-brand-cream: #FDFBF7;
+  --color-brand-green: #2E7D32;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Custom button utilities using the theme variables */
+.btn-primary {
+  @apply bg-brand-maroon text-white hover:bg-brand-maroon-dark transition-all duration-300 font-semibold px-6 py-3 rounded-md shadow-md flex items-center justify-center gap-2;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.btn-secondary {
+  @apply bg-transparent border-2 border-brand-maroon text-brand-maroon hover:bg-brand-maroon hover:text-white transition-all duration-300 font-semibold px-6 py-3 rounded-md flex items-center justify-center gap-2;
 }
