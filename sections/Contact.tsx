@@ -25,7 +25,6 @@ const Contact = () => {
   });
 
   const onSubmit = async (data: ContactFormData) => {
-    // Mimic secure server API interaction latency
     await new Promise((resolve) => setTimeout(resolve, 1500));
     console.log("Verified Form Submission Data:", data);
     setIsSubmitted(true);
@@ -59,7 +58,7 @@ const Contact = () => {
                   <div className="p-3 bg-white text-brand-maroon rounded-xl shadow-sm border border-gray-100"><Mail size={20} /></div>
                   <div>
                     <h4 className="font-bold text-gray-500 text-xs uppercase tracking-wider">Corporate Dispatch Email</h4>
-                    <a href="mailto:supply@elitebeefsuppliers.com" className="text-lg font-bold text-brand-charcoal hover:text-brand-maroon">supply@elitebeef.com</a>
+                    <a href="mailto:matovui559@gmail.com" className="text-lg font-bold text-brand-charcoal hover:text-brand-maroon">matovui559@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex gap-4 items-start">
