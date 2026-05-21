@@ -54,8 +54,8 @@ const About = () => {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-cream">
               <img 
-                src="https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=800&q=80" 
-                alt="Elite industrial commercial beef layout setup" 
+                src="https://images.unsplash.com/photo-1690983330536-3b0089d07cf9?auto=format&fit=crop&w=800&q=80"
+                alt="Raw beef hanging in a commercial butcher facility"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>

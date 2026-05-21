@@ -5,12 +5,12 @@ import { Check } from 'lucide-react';
 
 const WhyChooseUs = () => {
   const checkmarks = [
-    "Traceable livestock tracking frameworks",
-    "Completely sanitized cold transportation",
-    "Transparent dynamic scaling price brackets",
-    "Custom butcher portions match specific recipes",
-    "Flexible structural supply order intervals",
-    "Verified state chemical control clearance"
+    "Full livestock source traceability",
+    "Sanitized cold-chain transportation",
+    "Competitive and transparent bulk pricing",
+    "Custom portion cuts for your recipes",
+    "Flexible delivery schedules and order sizes",
+    "Certified halal and hygiene compliant"
   ];
 
   return (
@@ -27,10 +27,10 @@ const WhyChooseUs = () => {
           >
             <span className="text-brand-green font-bold text-sm tracking-widest uppercase">OUR COMPETITIVE ADVANTAGE</span>
             <h2 className="text-3xl sm:text-4xl font-extrabold mt-2 mb-6 tracking-tight leading-tight">
-              Why Elite Beef Rules the Wholesale Trade Channel
+              Why Businesses Choose Elite Beef Suppliers
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed mb-8">
-              We merge automated health monitoring variables into our supply chains to eliminate cross-contamination. This ensures your commercial inventory metrics remain structurally safe and efficient.
+              We go beyond basic supply — offering verified halal beef, strict hygiene standards, and dependable delivery schedules that keep your kitchen or business running without interruption.
             </p>
 
             <div className="space-y-6">
@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
             transition={{ duration: 0.6 }}
             className="lg:col-span-7 bg-white/5 border border-white/10 rounded-3xl p-8 sm:p-12 relative"
           >
-            <h3 className="text-2xl font-bold mb-8">Structural Quality Control Guarantees</h3>
+            <h3 className="text-2xl font-bold mb-8">What We Guarantee Every Order</h3>
             <div className="grid sm:grid-cols-2 gap-6">
               {checkmarks.map((text, i) => (
                 <div key={i} className="flex items-start gap-3">
@@ -64,11 +64,11 @@ const WhyChooseUs = () => {
 
             <div className="mt-12 p-6 rounded-2xl bg-gradient-to-br from-brand-maroon to-brand-maroonDark flex items-center justify-between flex-col sm:flex-row gap-6">
               <div>
-                <h4 className="font-bold text-lg">Need custom portions?</h4>
-                <p className="text-xs text-gray-200">Speak with our food operations team right now.</p>
+                <h4 className="font-bold text-lg">Need a custom order?</h4>
+                <p className="text-xs text-gray-200">Talk to our team via WhatsApp — we respond quickly.</p>
               </div>
               <a href="https://wa.me/256700000000" className="bg-white text-brand-maroon hover:bg-gray-100 transition-colors font-bold px-6 py-3 rounded-xl text-sm whitespace-nowrap">
-                Initialize Spec Setup
+                Chat on WhatsApp
               </a>
             </div>
           </motion.div>
