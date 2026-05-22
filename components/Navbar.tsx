@@ -92,7 +92,7 @@ const Navbar = () => {
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="https://wa.me/256700000000"
+                href="https://wa.me/256763123194"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-[#25D366] text-white text-xs font-bold uppercase tracking-wider rounded-full hover:bg-[#20BA5A] transition-all duration-200 shadow-sm hover:shadow-md"
@@ -102,7 +102,7 @@ const Navbar = () => {
                 WhatsApp
               </a>
               <a
-                href="tel:+256700000000"
+                href="tel:+256763123194"
                 className="flex items-center gap-2 px-4 py-2 bg-[#8B0000] text-white text-xs font-bold uppercase tracking-wider rounded-full hover:bg-[#6B0000] transition-all duration-200 shadow-sm hover:shadow-md"
                 style={{ fontFamily: "'Georgia', serif" }}
               >
@@ -143,7 +143,7 @@ const Navbar = () => {
             ))}
             <div className="mt-4 flex gap-3">
               <a
-                href="https://wa.me/256700000000"
+                href="https://wa.me/256763123194"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 py-3 bg-[#25D366] text-white text-xs font-bold uppercase tracking-wider rounded-full"
@@ -152,7 +152,7 @@ const Navbar = () => {
                 <MessageCircle size={14} /> WhatsApp
               </a>
               <a
-                href="tel:+256700000000"
+                href="tel:+256763123194"
                 className="flex-1 flex items-center justify-center gap-2 py-3 bg-[#8B0000] text-white text-xs font-bold uppercase tracking-wider rounded-full"
                 style={{ fontFamily: "'Georgia', serif" }}
               >
@@ -165,7 +165,7 @@ const Navbar = () => {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/256700000000"
+        href="https://wa.me/256763123194"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 hover:shadow-xl transition-all duration-200"

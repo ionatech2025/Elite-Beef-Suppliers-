@@ -67,7 +67,7 @@ const WhyChooseUs = () => {
                 <h4 className="font-bold text-lg">Need a custom order?</h4>
                 <p className="text-xs text-gray-200">Talk to our team via WhatsApp — we respond quickly.</p>
               </div>
-              <a href="https://wa.me/256700000000" className="bg-white text-brand-maroon hover:bg-gray-100 transition-colors font-bold px-6 py-3 rounded-xl text-sm whitespace-nowrap">
+              <a href="https://wa.me/256763123194" className="bg-white text-brand-maroon hover:bg-gray-100 transition-colors font-bold px-6 py-3 rounded-xl text-sm whitespace-nowrap">
                 Chat on WhatsApp
               </a>
             </div>

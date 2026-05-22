@@ -7,7 +7,7 @@ export const PRODUCTS: Product[] = [
     description: 'Freshly prepared whole or half carcass beef for high-volume wholesale requirements.',
     // ✅ CONFIRMED from page HTML: "Raw meat hanging in a butcher shop window" — Eric Prouzet
     // Clean glass display case, professional lighting, Hohhot China butcher shop
-    image: 'https://images.unsplash.com/photo-1763140446057-9becaa30b868?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1606677661991-446cea8ee182?auto=format&fit=crop&w=600&q=80',
     category: 'Bulk Supply',
   },
   {

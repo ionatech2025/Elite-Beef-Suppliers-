@@ -51,7 +51,7 @@ const Contact = () => {
                   <div className="p-3 bg-white text-brand-maroon rounded-xl shadow-sm border border-gray-100"><Phone size={20} /></div>
                   <div>
                     <h4 className="font-bold text-gray-500 text-xs uppercase tracking-wider">Phone</h4>
-                    <a href="tel:+256700000000" className="text-lg font-bold text-brand-charcoal hover:text-brand-maroon">+256 700 000 000</a>
+                    <a href="tel:+256763123194" className="text-lg font-bold text-brand-charcoal hover:text-brand-maroon">+256 763 123 194 / +256 754 925 915</a>
                   </div>
                 </div>
                 <div className="flex gap-4 items-start">
