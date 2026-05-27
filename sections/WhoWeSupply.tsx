@@ -6,7 +6,7 @@ import * as Icons from 'lucide-react';
 // ✅ All images confirmed from individual Unsplash page HTML
 const CLIENT_IMAGES: Record<string, string> = {
   // "Children sitting on chairs inside classroom" — Doug Linstedt, Lagos Nigeria
-  '1': 'https://images.unsplash.com/photo-1473649085228-583485e6e4d7?auto=format&fit=crop&w=600&q=80',
+  '1': '/school.jpeg',
   // "People dining at a restaurant with elegant decor" — Ben Iwara, Lagos Nigeria
   '2': 'https://images.unsplash.com/photo-1742134516273-03ec7c4eb0c7?auto=format&fit=crop&w=600&q=80',
   // "People working in a restaurant kitchen" — Precious Madubuike

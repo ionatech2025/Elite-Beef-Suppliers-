@@ -72,7 +72,7 @@ const Contact = () => {
                   <div className="p-3 bg-white text-brand-maroon rounded-xl shadow-sm border border-gray-100"><Clock size={20} /></div>
                   <div>
                     <h4 className="font-bold text-gray-500 text-xs uppercase tracking-wider">Working Hours</h4>
-                    <p className="text-sm font-bold text-gray-700">Mon – Fri: 5:00 AM – 6:00 PM</p>
+                    <p className="text-sm font-bold text-gray-700">Mon – Sun: 24 Hours</p>
                   </div>
                 </div>
               </div>
