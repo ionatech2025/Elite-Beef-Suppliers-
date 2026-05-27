@@ -65,7 +65,7 @@ const Contact = () => {
                   <div className="p-3 bg-white text-brand-maroon rounded-xl shadow-sm border border-gray-100"><MapPin size={20} /></div>
                   <div>
                     <h4 className="font-bold text-gray-500 text-xs uppercase tracking-wider">Location</h4>
-                    <p className="text-base font-bold text-brand-charcoal">Kampala-Luweero Highway, Uganda</p>
+                    <p className="text-base font-bold text-brand-charcoal">Meat packers along Port bell road</p>
                   </div>
                 </div>
                 <div className="flex gap-4 items-start">
